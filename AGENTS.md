@@ -12,7 +12,6 @@ Booking API: a backend service for reserving resources (rooms, slots) with idemp
 - Build and run all checks: `./mvnw verify`
 - Unit tests only: `./mvnw test`
 - Run locally: `docker compose up -d db && ./mvnw spring-boot:run`
-- Lint / static analysis: `./mvnw checkstyle:check spotbugs:check`
 
 `./mvnw verify` must pass before you consider any task done.
 
